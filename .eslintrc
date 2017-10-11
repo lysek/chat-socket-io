@@ -1,0 +1,22 @@
+{
+  "extends": "standard",
+  "rules": {
+    "space-before-function-paren": [
+      "error", {
+        "anonymous": "never",
+        "named": "never"
+      }
+    ],
+    "semi": [
+      "error", "always"
+    ],
+    "indent": ["error", 4],
+    "keyword-spacing": ["off"]
+  },
+  "plugins": [
+    "html"
+  ],
+  "env": {
+    "jasmine": true
+  }
+}
